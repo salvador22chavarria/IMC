@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/equipof"
+    android:layout_height="match_parent"
+    tools:context=".equipo">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="456dp"
+        android:fontFamily="@font/anton"
+        android:lineSpacingExtra="34sp"
+        android:text="SALVADOR CHAVARRIA"
+        android:textAlignment="center"
+        android:textColor="#FA06BD"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="210dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/anton"
+        android:text="INTEGRANTES"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="524dp"
+        android:fontFamily="@font/anton"
+        android:lineSpacingExtra="34sp"
+        android:text="GABRIEL HENRIQUEZ"
+        android:textAlignment="center"
+        android:textColor="#FA06BD"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
